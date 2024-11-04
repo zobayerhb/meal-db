@@ -3,7 +3,7 @@ import Meal from "../Meal/Meal";
 
 const Meals = () => {
   const { meals } = useLoaderData();
-//   console.log(meals);
+  //   console.log(meals);
 
   return (
     <div>

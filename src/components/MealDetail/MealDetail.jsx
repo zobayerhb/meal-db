@@ -3,14 +3,12 @@ import { Link, useNavigate } from "react-router-dom";
 
 const MealDetail = ({ mealDtl }) => {
   const { strCategory, strInstructions } = mealDtl;
-  //   console.log(mealDtl);
-
   const navigate = useNavigate();
 
   const handleBackBtn = () => {
     // navigate('/meals')
-    navigate(-1)
-  }
+    navigate(-1);
+  };
 
   return (
     <div className="border-2 p-5 rounded-lg">
@@ -20,7 +18,10 @@ const MealDetail = ({ mealDtl }) => {
         Go back
       </Link>{" "}
       <br />
-      <button onClick={handleBackBtn} className="bg-violet-500 text-white px-5 py-2 rounded-md">
+      <button
+        onClick={handleBackBtn}
+        className="bg-violet-500 text-white px-5 py-2 rounded-md"
+      >
         Go Back
       </button>
     </div>
