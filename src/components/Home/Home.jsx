@@ -3,9 +3,8 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 const Home = () => {
-
-  const location = useLocation()
-  console.log(location)
+  const location = useLocation();
+  console.log(location);
 
   return (
     <div>
