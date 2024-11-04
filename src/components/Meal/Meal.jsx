@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const Meal = ({ meal }) => {
-  console.log(meal);
+  // console.log(meal);
   const { idMeal, strMealThumb, strMeal, strArea } = meal;
 
   return (
